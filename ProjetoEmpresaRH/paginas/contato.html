@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>ABC Tecnologia - Contato</title>
-        <meta charset="UTF-8" />
-    </head>
+<head>
+    <title>ABC Tecnologia - Contato</title>
+    <meta charset="UTF-8" />
+    <link href="../css/estilos.css" rel="stylesheet" />
+    <link href="../css/form.css" rel="stylesheet" />
+</head>
 
-    <body>
+<body>
+    <div class="container borda">
         <h1>Entre em contato conosco</h1>
         <header>
             <p>
                 <ol>
                     <li>Enviar Sugestões</li>
-                    <li>Solicitar orçamentos</li>
-                    <li>Solicitar visitas</li>
+                    <li>Solicitar Orçamentos</li>
+                    <li>Solicitar Visitas</li>
                     <li>Apresentar seu feedback</li>
                 </ol>
             </p>
             <p>Sinta-se à vontade para entrar em contato</p>
         </header>
-        <form action="contatoOk.html" method="POST">
 
-            <div>
-                <label for="nome">Seu nome:</label>
-                <input type="text" id="nome" name="nome" required="required" autofocus="autofocus" />
+        <form id="formulario" action="contatoOK.html" method="post">
+            <div class="linha">
+                <label class="coluna col-2" for="nome">Seu nome:</label>
+                <div class="col-10">
+                    <input type="text" id="nome" name="nome" required="required" />
+                </div>
+            </div>
+            <div class="linha">
+                <label class="coluna col-2" for="telefone">Seu telefone:</label>
+                <div class="col-10">
+                    <input type="tel" id="telefone" name="telefone" />
+                </div>
+            </div>
+            <div class="linha">
+                <label class="coluna col-2" for="email">Seu email:</label>
+                <div class="col-10">
+                    <input type="email" id="email" name="email" required="required" />
+                </div>
+            </div>
+            <div class="linha">
+                <label class="coluna col-2" for="assunto">Assunto:</label>
+                <div class="col-10">
+                    <textarea rows="10" cols="50" id="assunto" name="assunto"></textarea>
+                </div>
             </div>
 
-            <div>
-                <label for="telefone">Seu telefone:</label>
-                <input type="tel" id="telefone" name="telefone" required="required" />
+            <div class="linha">
+                <input type="submit" value="Enviar" id="enviarContato" />
             </div>
-
-            <div>
-                <label for="email">Seu email:</label>
-                <input type="email" id="email" name="email" required="required" />
-            </div>
-
-            <div>
-                <label for="assunto">Assunto</label>
-                <textarea rows="10" cols="50" id="assunto" name="assunto"></textarea>
-            </div>
-
-            <input id="btnEnviar" type="submit" value="Enviar" />
         </form>
-    </body>
+    </div>
+</body>
+
 </html>
