@@ -4,21 +4,25 @@
 <head>
     <title>Site Institucional - ABC Tecnologia</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/estilos.css" rel="stylesheet" />
     <link href="./css/menu.css" rel="stylesheet" />
     <link href="./css/destaque.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul class="menu">
+            <ul class="menu" id="menuTopo">
                 <li><a href="#">A Empresa</a></li>
                 <li><a href="#">Produto</a></li>
                 <li><a href="#">Localização</a></li>
                 <li><a href="paginas/registro.html">Trabalhe Conosco</a></li>
                 <li><a href="paginas/contato.html">Contato</a></li>
+                <li class="icon">
+                    <a href="">☰</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -28,12 +32,14 @@
     <div class="container">
         <section>
             <article>
+
                 <div>
                     <a class="registro" href="./paginas/registro.html">
                         Candidate-se<br/>
-                        <span class="free"> &#183; hoje &#183; </span>
+                        <span class="free">·Hoje·</span>
                     </a>
                 </div>
+
                 <header>
                     <h2>Conheça-nos um pouco</h2>
                     <p>
@@ -67,6 +73,16 @@
             São Paulo, SP CEP 00000-000</p>
         <p>Copyright 2020 - Todos os direitos reservados</p>
     </footer>
+    <script type="text/javascript">
+        function mostramenu(){
+            const $menu = $('#menutopo')
+            if($menu.hasClass('responsive')){
+                $menu.removeClass('responsive')
+            }else{
+                $menu.addClass('responsive')
+            }
+        }
+    </script>
 </body>
 
 </html>

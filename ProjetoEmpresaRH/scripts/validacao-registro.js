@@ -21,4 +21,3 @@ botao[0].addEventListener('click', function(){
     vaga.setCustomValidity(vaga.value < 0 ? "Informe a vaga desejada" : '')
 })
 }
-console.log("sem butao")
