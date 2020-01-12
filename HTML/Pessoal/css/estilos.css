@@ -1,0 +1,15 @@
+label{
+    color: darkorange;
+}
+input{
+    background-color: lightblue;
+    border-style: inset;
+}
+@media screen and (min-width: 768px){
+    
+    img{
+        float: right;
+        right: 0;
+        top: 0;
+    }
+}

@@ -20,7 +20,7 @@
                 <li><a href="#">Localização</a></li>
                 <li><a href="paginas/registro.html">Trabalhe Conosco</a></li>
                 <li><a href="paginas/contato.html">Contato</a></li>
-                <li class="icon">
+                <li class="icon" id="icon">
                     <a href="">☰</a>
                 </li>
             </ul>
@@ -74,14 +74,17 @@
         <p>Copyright 2020 - Todos os direitos reservados</p>
     </footer>
     <script type="text/javascript">
+    $("#icon").click(
         function mostramenu(){
             const $menu = $('#menutopo')
-            if($menu.hasClass('responsive')){
-                $menu.removeClass('responsive')
-            }else{
+            console.log('ta indo')
+            if ($menu.hasClass('responsive')){
+                console.log('ta indo 2')
+            } else {
                 $menu.addClass('responsive')
+                console.log($menu.hasClass('responsive'))
             }
-        }
+        })
     </script>
 </body>
 
