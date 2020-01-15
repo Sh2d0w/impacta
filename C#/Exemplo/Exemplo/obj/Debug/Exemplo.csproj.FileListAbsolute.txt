@@ -1,0 +1,10 @@
+C:\Users\di3907\Documents\GitHub\C#\Exemplo\Exemplo\bin\Debug\Exemplo.exe.config
+C:\Users\di3907\Documents\GitHub\C#\Exemplo\Exemplo\bin\Debug\Exemplo.exe
+C:\Users\di3907\Documents\GitHub\C#\Exemplo\Exemplo\bin\Debug\Exemplo.pdb
+C:\Users\di3907\Documents\GitHub\C#\Exemplo\Exemplo\obj\Debug\Exemplo.csprojAssemblyReference.cache
+C:\Users\di3907\Documents\GitHub\C#\Exemplo\Exemplo\obj\Debug\Exemplo.Form1.resources
+C:\Users\di3907\Documents\GitHub\C#\Exemplo\Exemplo\obj\Debug\Exemplo.Properties.Resources.resources
+C:\Users\di3907\Documents\GitHub\C#\Exemplo\Exemplo\obj\Debug\Exemplo.csproj.GenerateResource.cache
+C:\Users\di3907\Documents\GitHub\C#\Exemplo\Exemplo\obj\Debug\Exemplo.csproj.CoreCompileInputs.cache
+C:\Users\di3907\Documents\GitHub\C#\Exemplo\Exemplo\obj\Debug\Exemplo.exe
+C:\Users\di3907\Documents\GitHub\C#\Exemplo\Exemplo\obj\Debug\Exemplo.pdb
