@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "contatos";
+}
+
+<h2>Contatos Recebidos</h2>
+@foreach(string linha in ViewBag.contatos)
+{
+    <p>@linha</p>
+}

@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Sitepessoal.Models
+namespace SitePessoal.Models
 {
-    public class ContatoViewModel
+    public class Contato
     {
-        public string Nome { get; set; }
-        public string Email { get; set; }
-        public string Mensagem { get; set; }
+        public string Name { get; set; }
+        public string Mail { get; set; }
+        public string Message { get; set; }
+        public DateTime Data { get; set; }
     }
 }
